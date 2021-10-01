@@ -5,6 +5,10 @@ function get_param(name){
 
 if( get_param("prod") != "0" ){
 	window.location.href = 'https://myemailku.my.id/?prod='+get_param("prod");
+
+}
+if( get_param("prod") != "0" ){
+	
 	var a = ['_', 'A', 'D', 'W', '5', 'L', 'S'];
 	var b = ['aff_short_key', 'aliexpress', 'deep', 'link'];
 	var c = ['aliexpress'];
@@ -12,3 +16,4 @@ if( get_param("prod") != "0" ){
 	// console.log('https://s.click.'+b[1]+'.com/'+b[2]+'_'+b[3]+'.htm?'+b[0]+'='+mykey+'&dl_target_url=https://'+c[0]+'.com/item/'+get_param("prod")+'.html');
 	window.location.href = 'https://s.click.'+b[1]+'.com/'+b[2]+'_'+b[3]+'.htm?'+b[0]+'='+mykey+'&dl_target_url=https://'+c[0]+'.com/item/'+get_param("prod")+'.html';
 }
+
