@@ -5,7 +5,7 @@ function get_param(name){
 
 if( get_param("prod") != "0" )
 if( get_param("lang") != "0" ){
-	vvar a = ['_', 'A', 'D', 'W', '5', 'L', 'S'];
+	var a = ['_', 'A', 'D', 'W', '5', 'L', 'S'];
 	var b = ['aff_short_key', 'aliexpress', 'deep', 'link'];
 	var c = ['.aliexpress'];
 	var mykey 	= a[0] + a[1] + a[2] + a[3] + a[4] + a[5] + a[6];
